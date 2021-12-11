@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="vtiger_maven.test_scripts.CreateDateInformationInLayoutEditorTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="signOut"/>
+          <include name="clickLogin"/>
+          <include name="closeBrowser"/>
+          <include name="addCustomFieldLayout"/>
+        </methods>
+      </class> <!-- vtiger_maven.test_scripts.CreateDateInformationInLayoutEditorTest -->
+      <class name="vtiger_maven.test_scripts.EditCustomeViewFilterTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="signOut"/>
+          <include name="editViewFilter"/>
+          <include name="clickLogin"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- vtiger_maven.test_scripts.EditCustomeViewFilterTest -->
+      <class name="vtiger_maven.test_scripts.EditRecentlyViewedPriceBookTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="editRecentView"/>
+          <include name="signOut"/>
+          <include name="clickLogin"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- vtiger_maven.test_scripts.EditRecentlyViewedPriceBookTest -->
+      <class name="vtiger_maven.test_scripts.EditPriceOfTheServiceInPriceBookTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="signOut"/>
+          <include name="clickLogin"/>
+          <include name="closeBrowser"/>
+          <include name="editServicePrice"/>
+        </methods>
+      </class> <!-- vtiger_maven.test_scripts.EditPriceOfTheServiceInPriceBookTest -->
+      <class name="vtiger_maven.test_scripts.QuickCreateNewPBTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="signOut"/>
+          <include name="quickCreate"/>
+          <include name="clickLogin"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- vtiger_maven.test_scripts.QuickCreateNewPBTest -->
+      <class name="vtiger_maven.test_scripts.EditCustomFieldInLayoutSettingTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="editCustomField"/>
+          <include name="signOut"/>
+          <include name="clickLogin"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- vtiger_maven.test_scripts.EditCustomFieldInLayoutSettingTest -->
+      <class name="vtiger_maven.test_scripts.EditCustomFilterTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="editCustomFliter"/>
+          <include name="signOut"/>
+          <include name="clickLogin"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- vtiger_maven.test_scripts.EditCustomFilterTest -->
+      <class name="vtiger_maven.test_scripts.DeleteProductFromPriceBookTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="signOut"/>
+          <include name="deleteProductPB"/>
+          <include name="clickLogin"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- vtiger_maven.test_scripts.DeleteProductFromPriceBookTest -->
+      <class name="vtiger_maven.test_scripts.MassEditPriceBooksTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="signOut"/>
+          <include name="clickLogin"/>
+          <include name="closeBrowser"/>
+          <include name="massEditPB"/>
+        </methods>
+      </class> <!-- vtiger_maven.test_scripts.MassEditPriceBooksTest -->
+      <class name="vtiger_maven.test_scripts.DeleteBlockINLayoutSettingTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="signOut"/>
+          <include name="clickLogin"/>
+          <include name="closeBrowser"/>
+          <include name="deleteBlockInLayout"/>
+        </methods>
+      </class> <!-- vtiger_maven.test_scripts.DeleteBlockINLayoutSettingTest -->
+      <class name="vtiger_maven.test_scripts.DeleteFilterTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="signOut"/>
+          <include name="clickLogin"/>
+          <include name="deleteFilterInList"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- vtiger_maven.test_scripts.DeleteFilterTest -->
+      <class name="vtiger_maven.test_scripts.EditPriceOfTheProductInPriceBookTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="signOut"/>
+          <include name="clickLogin"/>
+          <include name="editProductPrice"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- vtiger_maven.test_scripts.EditPriceOfTheProductInPriceBookTest -->
+      <class name="vtiger_maven.test_scripts.CreateNewFilterTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="signOut"/>
+          <include name="clickLogin"/>
+          <include name="closeBrowser"/>
+          <include name="addNewFilter"/>
+        </methods>
+      </class> <!-- vtiger_maven.test_scripts.CreateNewFilterTest -->
+      <class name="vtiger_maven.test_scripts.AlphabeticalSearchOfPriceBookTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="alphaSearch"/>
+          <include name="signOut"/>
+          <include name="clickLogin"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- vtiger_maven.test_scripts.AlphabeticalSearchOfPriceBookTest -->
+      <class name="vtiger_maven.test_scripts.AddBlockInLayoutEditorSettingTest">
+        <methods>
+          <include name="addNewBlock"/>
+          <include name="openBrowser"/>
+          <include name="signOut"/>
+          <include name="clickLogin"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- vtiger_maven.test_scripts.AddBlockInLayoutEditorSettingTest -->
+      <class name="vtiger_maven.test_scripts.JumpToDifferentPriceBookTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="signOut"/>
+          <include name="clickLogin"/>
+          <include name="jumpToDiffPB"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- vtiger_maven.test_scripts.JumpToDifferentPriceBookTest -->
+      <class name="vtiger_maven.test_scripts.AddServiceToPriceBookTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="signOut"/>
+          <include name="clickLogin"/>
+          <include name="addServicePB"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- vtiger_maven.test_scripts.AddServiceToPriceBookTest -->
+      <class name="vtiger_maven.test_scripts.CreateNewPriceBookTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="signOut"/>
+          <include name="clickLogin"/>
+          <include name="closeBrowser"/>
+          <include name="createNewPB"/>
+        </methods>
+      </class> <!-- vtiger_maven.test_scripts.CreateNewPriceBookTest -->
+      <class name="vtiger_maven.test_scripts.AdvanceSearchInPriceBookTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="signOut"/>
+          <include name="clickLogin"/>
+          <include name="closeBrowser"/>
+          <include name="advanceSearch"/>
+        </methods>
+      </class> <!-- vtiger_maven.test_scripts.AdvanceSearchInPriceBookTest -->
+      <class name="vtiger_maven.test_scripts.DeleteServiceFromPriceBookTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="signOut"/>
+          <include name="deleteServicePB"/>
+          <include name="clickLogin"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- vtiger_maven.test_scripts.DeleteServiceFromPriceBookTest -->
+      <class name="vtiger_maven.test_scripts.AddProductToPriceBookTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="signOut"/>
+          <include name="addProductPB"/>
+          <include name="clickLogin"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- vtiger_maven.test_scripts.AddProductToPriceBookTest -->
+      <class name="vtiger_maven.test_scripts.RearrangeOrderOfPriceBookTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="signOut"/>
+          <include name="rearrangePB"/>
+          <include name="clickLogin"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- vtiger_maven.test_scripts.RearrangeOrderOfPriceBookTest -->
+      <class name="vtiger_maven.test_scripts.CancleTheEditOnRecentlyViewedPBTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="signOut"/>
+          <include name="clickLogin"/>
+          <include name="closeBrowser"/>
+          <include name="cancleEditViewPB"/>
+        </methods>
+      </class> <!-- vtiger_maven.test_scripts.CancleTheEditOnRecentlyViewedPBTest -->
+      <class name="vtiger_maven.test_scripts.AdvanceMultipleSearchInPriceBookTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="signOut"/>
+          <include name="clickLogin"/>
+          <include name="closeBrowser"/>
+          <include name="multiSearch"/>
+        </methods>
+      </class> <!-- vtiger_maven.test_scripts.AdvanceMultipleSearchInPriceBookTest -->
+      <class name="vtiger_maven.test_scripts.DeletePriceBookTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="signOut"/>
+          <include name="clickLogin"/>
+          <include name="closeBrowser"/>
+          <include name="deletePB"/>
+        </methods>
+      </class> <!-- vtiger_maven.test_scripts.DeletePriceBookTest -->
+      <class name="vtiger_maven.test_scripts.DuplicateThePriceBookTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="signOut"/>
+          <include name="createDuplicatePB"/>
+          <include name="clickLogin"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- vtiger_maven.test_scripts.DuplicateThePriceBookTest -->
+      <class name="vtiger_maven.test_scripts.SearchPriceBookBySearchOptionTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="signOut"/>
+          <include name="clickLogin"/>
+          <include name="closeBrowser"/>
+          <include name="searchPB"/>
+        </methods>
+      </class> <!-- vtiger_maven.test_scripts.SearchPriceBookBySearchOptionTest -->
+      <class name="vtiger_maven.test_scripts.CreatePickListInCoustomFieldTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="addPickListToCustomField"/>
+          <include name="signOut"/>
+          <include name="clickLogin"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- vtiger_maven.test_scripts.CreatePickListInCoustomFieldTest -->
+      <class name="vtiger_maven.test_scripts.EditPriceBookInformationTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="signOut"/>
+          <include name="editPBInformation"/>
+          <include name="clickLogin"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- vtiger_maven.test_scripts.EditPriceBookInformationTest -->
+      <class name="vtiger_maven.test_scripts.FindLastViewedPriceBookTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="signOut"/>
+          <include name="lastViewPB"/>
+          <include name="clickLogin"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- vtiger_maven.test_scripts.FindLastViewedPriceBookTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes">
+  <test name="Test">
+    <classes>
+      <class name="vtiger_maven.test_scripts.MassEditPriceBooksTest"/>
+      <class name="vtiger_maven.test_scripts.DeleteProductFromPriceBookTest"/>
+      <class name="vtiger_maven.test_scripts.EditPriceOfTheProductInPriceBookTest"/>
+      <!-- <class name="vtiger_maven.test_scripts.FindLastViewedPriceBookTest"/>
+      <class name="vtiger_maven.test_scripts.CreateDateInformationInLayoutEditorTest"/>
+      <class name="vtiger_maven.test_scripts.AddServiceToPriceBookTest"/>
+      <class name="vtiger_maven.test_scripts.QuickCreateNewPBTest"/>
+      <class name="vtiger_maven.test_scripts.EditCustomFilterTest"/>
+      <class name="vtiger_maven.test_scripts.DeleteServiceFromPriceBookTest"/>
+      <class name="vtiger_maven.test_scripts.DeleteFilterTest"/>
+      <class name="vtiger_maven.test_scripts.EditPriceOfTheServiceInPriceBookTest"/>
+      <class name="vtiger_maven.test_scripts.AdvanceSearchInPriceBookTest"/>
+      <class name="vtiger_maven.test_scripts.CreatePickListInCoustomFieldTest"/>
+      <class name="vtiger_maven.test_scripts.DeleteBlockINLayoutSettingTest"/>
+      <class name="vtiger_maven.test_scripts.EditCustomeViewFilterTest"/>
+      <class name="vtiger_maven.test_scripts.SearchPriceBookBySearchOptionTest"/>
+      <class name="vtiger_maven.test_scripts.AlphabeticalSearchOfPriceBookTest"/>
+      <class name="vtiger_maven.test_scripts.AddProductToPriceBookTest"/>
+      <class name="vtiger_maven.test_scripts.JumpToDifferentPriceBookTest"/>
+      <class name="vtiger_maven.test_scripts.AddBlockInLayoutEditorSettingTest"/>
+      <class name="vtiger_maven.test_scripts.AdvanceMultipleSearchInPriceBookTest"/>
+      <class name="vtiger_maven.test_scripts.CreateNewPriceBookTest"/>
+      <class name="vtiger_maven.test_scripts.CreateNewFilterTest"/>
+      <class name="vtiger_maven.test_scripts.DuplicateThePriceBookTest"/>
+      <class name="vtiger_maven.test_scripts.RearrangeOrderOfPriceBookTest"/>
+      <class name="vtiger_maven.test_scripts.EditCustomFieldInLayoutSettingTest"/>
+      <class name="vtiger_maven.test_scripts.CancleTheEditOnRecentlyViewedPBTest"/>
+      <class name="vtiger_maven.test_scripts.EditPriceBookInformationTest"/>
+      <class name="vtiger_maven.test_scripts.DeletePriceBookTest"/>
+      <class name="vtiger_maven.test_scripts.EditRecentlyViewedPriceBookTest"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Default test Started]]>
+    </line>
+    <line>
+      <![CDATA[addNewBlock Method Started]]>
+    </line>
+    <line>
+      <![CDATA[addNewBlock Method Skipped]]>
+    </line>
+    <line>
+      <![CDATA[Default test Ended]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="152" started-at="2020-12-07T14:51:24 IST" finished-at="2020-12-07T14:51:24 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="152" started-at="2020-12-07T14:51:24 IST" finished-at="2020-12-07T14:51:24 IST">
+      <class name="vtiger_maven.test_scripts.AddBlockInLayoutEditorSettingTest">
+        <test-method status="FAIL" signature="openBrowser()[pri:0, instance:vtiger_maven.test_scripts.AddBlockInLayoutEditorSettingTest@5f282abb]" name="openBrowser" is-config="true" duration-ms="18" started-at="2020-12-07T14:51:24 IST" finished-at="2020-12-07T14:51:24 IST">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[D:\mynotepad\Selenium Notes\SeleniumPrg\vtiger_maven\src\test\resources\Data\config.properties (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: D:\mynotepad\Selenium Notes\SeleniumPrg\vtiger_maven\src\test\resources\Data\config.properties (The system cannot find the path specified)
+at java.io.FileInputStream.open0(Native Method)
+at java.io.FileInputStream.open(Unknown Source)
+at java.io.FileInputStream.<init>(Unknown Source)
+at java.io.FileInputStream.<init>(Unknown Source)
+at com.vtiger.genericlibrary.FileLib.getPropKeyValue(FileLib.java:25)
+at com.vtiger.genericlibrary.BaseTest.openBrowser(BaseTest.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="clickLogin()[pri:0, instance:vtiger_maven.test_scripts.AddBlockInLayoutEditorSettingTest@5f282abb]" name="clickLogin" is-config="true" duration-ms="-1607332884472" started-at="2020-12-07T14:51:24 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLogin -->
+        <test-method status="SKIP" signature="addNewBlock()[pri:0, instance:vtiger_maven.test_scripts.AddBlockInLayoutEditorSettingTest@5f282abb]" name="addNewBlock" duration-ms="0" started-at="2020-12-07T14:51:24 IST" finished-at="2020-12-07T14:51:24 IST">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[D:\mynotepad\Selenium Notes\SeleniumPrg\vtiger_maven\src\test\resources\Data\config.properties (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: D:\mynotepad\Selenium Notes\SeleniumPrg\vtiger_maven\src\test\resources\Data\config.properties (The system cannot find the path specified)
+at java.io.FileInputStream.open0(Native Method)
+at java.io.FileInputStream.open(Unknown Source)
+at java.io.FileInputStream.<init>(Unknown Source)
+at java.io.FileInputStream.<init>(Unknown Source)
+at com.vtiger.genericlibrary.FileLib.getPropKeyValue(FileLib.java:25)
+at com.vtiger.genericlibrary.BaseTest.openBrowser(BaseTest.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+            <line>
+              <![CDATA[addNewBlock Method Skipped]]>
+            </line>
+            <line>
+              <![CDATA[Default test Ended]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addNewBlock -->
+        <test-method status="SKIP" signature="signOut()[pri:0, instance:vtiger_maven.test_scripts.AddBlockInLayoutEditorSettingTest@5f282abb]" name="signOut" is-config="true" duration-ms="-1607332884490" started-at="2020-12-07T14:51:24 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:vtiger_maven.test_scripts.AddBlockInLayoutEditorSettingTest@5f282abb]" name="closeBrowser" is-config="true" duration-ms="-1607332884496" started-at="2020-12-07T14:51:24 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- vtiger_maven.test_scripts.AddBlockInLayoutEditorSettingTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
